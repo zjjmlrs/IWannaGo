@@ -1,0 +1,49 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "+2LEefjnyc9J0KRkZcPkEZTtBtQ=",
+			"path": "github.com/bsm/redis-lock",
+			"revision": "bb8492f53a130e430d3dbb804551d526fb19eed8",
+			"revisionTime": "2018-01-19T09:30:38Z"
+		},
+		{
+			"checksumSHA1": "khNQoSNTs5PbIE3DLU02WxNFf6c=",
+			"path": "github.com/go-redis/redis",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		},
+		{
+			"checksumSHA1": "d/1j6IsuK+Hx84gWUlnKV2Zhq00=",
+			"path": "github.com/go-redis/redis/internal",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		},
+		{
+			"checksumSHA1": "BuzQsdMJMUXm8Zfwtuoz4QUdnZE=",
+			"path": "github.com/go-redis/redis/internal/consistenthash",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		},
+		{
+			"checksumSHA1": "BOW6qcnIfmJmbW2PfvdXES/SLYM=",
+			"path": "github.com/go-redis/redis/internal/hashtag",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		},
+		{
+			"checksumSHA1": "83zUabwsQG2lhxFxXVZvqgLYUvU=",
+			"path": "github.com/go-redis/redis/internal/pool",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		},
+		{
+			"checksumSHA1": "LHEWV4Uul9QhQsb3ExUOUwkPzJk=",
+			"path": "github.com/go-redis/redis/internal/proto",
+			"revision": "2c11cbf01afb690650ad9b115e2c19f521c85201",
+			"revisionTime": "2018-01-25T08:05:55Z"
+		}
+	],
+	"rootPath": "IWannaGo"
+}
