@@ -62,11 +62,12 @@
 * 注意以上的redisLock 的实现方法并不是唯一的,还可以使用其他redis命令如```GetSet```等实现锁
 * 分布式的锁还要考虑Redis的master节点宕机的情况
 > [Redis学习笔记（六）redis实现分布式锁](http://blog.csdn.net/liubenlong007/article/details/53782934)
+>
 > [官方文档 Distributed locks with Redis](https://redis.io/topics/distlock)
 
 #### 其他参考资料
-[redis setnx 实现分布式锁和单机锁](http://blog.csdn.net/pzqingchong/article/details/52516602)
-[基于Redis实现分布式锁](http://blog.csdn.net/ugg/article/details/41894947)
+* [redis setnx 实现分布式锁和单机锁](http://blog.csdn.net/pzqingchong/article/details/52516602)
+* [基于Redis实现分布式锁](http://blog.csdn.net/ugg/article/details/41894947)
 
 #### 其他学习点
 * mutex -- 加锁
