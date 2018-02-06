@@ -10,6 +10,18 @@ import (
 	"fmt"
 )
 
+type W []byte
+
+func (w *W) WriteString(s string) (int, error) {
+	*w = append(*w, s+"2"...)
+	return len(s + "2"), nil
+}
+
+func (w *W) Write(p []byte) (int, error) {
+	*w = append(*w, p...)
+	return len(p), nil
+}
+
 func TestReaderBytes(t *testing.T) {
 
 	r := strings.NewReader("test中文")
@@ -58,4 +70,13 @@ func TestReplacer(t *testing.T) {
 
 	r = strings.NewReplacer("a", "c", "c", "11")
 	fmt.Println(r.Replace("abcdeabcf"))
+
+	// 自定义 WriteString 方法
+	w := new(W)
+	r.WriteString(w, "qqqqqqqqaqqqqqqqcqq")
+	fmt.Println(string(*w))
+}
+
+func TestStrings(t *testing.T) {
+	// todo
 }
