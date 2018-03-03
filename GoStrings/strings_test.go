@@ -5,9 +5,9 @@ date: 2018/2/4
 package GoStrings
 
 import (
-	"testing"
-	"strings"
 	"fmt"
+	"strings"
+	"testing"
 )
 
 type W []byte

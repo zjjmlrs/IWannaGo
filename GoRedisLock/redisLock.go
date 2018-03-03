@@ -1,13 +1,13 @@
 /*
 author: zjjmlrs
-date: 2018/1/28  
+date: 2018/1/28
 */
 package GoRedisLock
 
 import (
-	"github.com/go-redis/redis"
-	"github.com/bsm/redis-lock"
 	"fmt"
+	"github.com/bsm/redis-lock"
+	"github.com/go-redis/redis"
 	"time"
 )
 
