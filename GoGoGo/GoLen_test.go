@@ -7,13 +7,28 @@ package GoGoGo
 import (
 	"fmt"
 	"testing"
+	"bytes"
+	"strings"
+	"unicode/utf8"
 )
 
 func TestLen(t *testing.T) {
 	fmt.Println(len("gfargr中文grf"))         // length of bytes
 	fmt.Println(len([]rune("gfargr中文grf"))) // length of unicode char
-
 	fmt.Println(len(string(rune('编'))))
+	fmt.Println()
+
+	// golang中获取字符串长度的几种方法: http://blog.csdn.net/skh2015java/article/details/53258249
+	// length of unicode char
+	str := "Hello中文Word"
+	l1 := len([]rune(str))
+	l2 := bytes.Count([]byte(str), nil) - 1
+	l3 := strings.Count(str, "") - 1
+	l4 := utf8.RuneCountInString(str)
+	fmt.Println(l1)
+	fmt.Println(l2)
+	fmt.Println(l3)
+	fmt.Println(l4)
 }
 
 func TestRune(t *testing.T) {

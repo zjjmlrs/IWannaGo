@@ -76,7 +76,3 @@ func TestReplacer(t *testing.T) {
 	r.WriteString(w, "qqqqqqqqaqqqqqqqcqq")
 	fmt.Println(string(*w))
 }
-
-func TestStrings(t *testing.T) {
-	// todo
-}

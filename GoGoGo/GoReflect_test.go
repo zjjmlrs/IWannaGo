@@ -85,10 +85,10 @@ func TestCanSet(t *testing.T) {
 	var s = "abc"
 	fv := reflect.ValueOf(s)
 	fmt.Println(fv.CanSet()) //false
-	// fv.SetString("edf")   //panic
+	// fv.SetString("edf")   	//panic
 	fv2 := reflect.ValueOf(&s)
 	fmt.Println(fv2.CanSet()) //false
-	// fv2.SetString("edf")      //panic
+	// fv2.SetString("edf")     //panic
 	fmt.Println()
 
 	var f = Foo{"abc", 123}
