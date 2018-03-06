@@ -2,7 +2,7 @@
 author: zjjmlrs
 date: 2018/2/4
 */
-package core
+package GoGoGo
 
 import (
 	"fmt"
